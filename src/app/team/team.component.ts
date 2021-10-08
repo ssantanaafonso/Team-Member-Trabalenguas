@@ -10,6 +10,5 @@ export class TeamComponent implements OnInit {
   constructor() {}
 
   @Input() teamMembers: TeamMember[];
-
   ngOnInit() {}
 }
